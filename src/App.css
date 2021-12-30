@@ -1,3 +1,15 @@
-.h{
-  font-size: 48px;
+.header{
+  text-align: center;
+  
+}
+.header h1{
+  font-weight: 900;
+  font-size: 12rem !important;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 4px solid black;
+  display: inline-block
+}
+.custom-card img{
+  border-radius: 10px;
 }

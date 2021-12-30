@@ -1,16 +1,15 @@
-import './App.css';
-import { Emon } from './Components/Emon';
+import "./App.css";
+import { Header } from "./Components/Header";
+import { BlogList } from "./Components/BlogList";
+import { MainBlog } from "./Components/MainBlog";
 
 function App() {
-  const e = "Developer";
-  var ea = "Full stack"
   return (
-    <>
-      <div className="h">
-        Emon Ahmed {ea}
-      </div>
-      <Emon />
-    </>
+    <div className="container">
+      <Header />
+      <MainBlog />
+      <BlogList />
+    </div>
   );
 }
 
